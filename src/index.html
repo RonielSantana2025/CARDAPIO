@@ -1,0 +1,299 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+
+
+
+
+    <link href="./style.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+
+    <!--HEADER-->
+
+    <header class="w-full h-[420px] bg-cover bg-center" style="background-image: url('../assets/bg.png');">
+        <div class="flex flex-col items-center justify-center h-full text-white">
+            <img src="../assets/2e49fb86-5a6e-40f0-ae1a-4261a029dc55.webp" alt="Logo RonyBurguer"
+                class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200" />
+            <h1 class="text-3xl mt-4 mb-2 font-bold">Watch Burguer</h1>
+
+            <span class="text-white font-medium">Rua dev 10, Campo Grande - MS</span>
+
+
+            <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
+
+                <span class="text-white font-medium">Seg à Dom - 18:00 às 22:00</span>
+
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!--FIM HEADER-->
+
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">Conheça nosso cardápio
+
+    </h2>
+    <!--INICIO MENU-->
+
+    <div id="menu">
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-12 mx-auto max-w-7xl px-2 mb-16">
+
+
+            <!--produto item-->
+            <div class="flex gap-2">
+                <img src="../assets/hamb-1.png" alt="Hamburguer1"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+
+
+                <div>
+                    <p class="font-bold"> Hamburguer Delicius</p>
+                    <p class="text-sm">Pão levinho de fermentação natural da trigou, burger 160g, queijo
+                        prato e maionese da casa</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 22.50</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Hamburguer Delicius"
+                            data-price="22.50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <!--fim produto item-->
+
+            <!--produto item-->
+            <div class="flex gap-2">
+                <img src="../assets/hamb-2.png" alt="Hamburguer2"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+
+
+                <div>
+                    <p class="font-bold"> Hamburguer Top</p>
+                    <p class="text-sm">Pão levinho de fermentação natural da trigou, burger 160g, queijo
+                        prato e maionese da casa</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 32.50</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Hamburguer Top"
+                            data-price="32.50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <!--fim produto item-->
+
+            <!--produto item-->
+            <div class="flex gap-2">
+                <img src="../assets/hamb-3.png" alt="Hamburguer3"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+
+
+                <div>
+                    <p class="font-bold"> Hamburguer Cabuloso</p>
+                    <p class="text-sm">Pão levinho de fermentação natural da trigou, burger 160g, queijo
+                        prato e maionese da casa</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 55.50</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Hamburguer cabuloso"
+                            data-price="55.50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <!--fim produto item-->
+
+            <!--produto item-->
+            <div class="flex gap-2">
+                <img src="../assets/hamb-4.png" alt="Hamburguer4"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+
+
+                <div>
+                    <p class="font-bold"> Hamburguer Merreca</p>
+                    <p class="text-sm">Pão levinho de fermentação natural da trigou, burger 160g, queijo
+                        prato e maionese da casa</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 12.50</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Hamburguer Merreca"
+                            data-price="12.50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <!--fim produto item-->
+
+
+        </main>
+
+        <div class="mx-auto max-w-7xl px-2 my-2">
+            <h2 class="font-bold text-3xl">Bebidas</h2>
+        </div>
+
+        <!--GRID BEBIBAS-->
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-12 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+            <!--produto item-->
+            <div class="flex gap-2 w-full">
+                <img src="../assets/refri-1.png" alt="Coca lata"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+
+
+                <div class="w-full">
+                    <p class="font-bold">Coca lata</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 5.50</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="coca lata"
+                            data-price="5.50">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <!--fim produto item-->
+
+
+            <!--produto item-->
+            <div class="flex gap-2 w-full">
+                <img src="../assets/refri-2.png" alt="Guaraná lata"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+
+
+
+                <div class="w-full">
+                    <p class="font-bold">Guaraná lata</p>
+
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">R$ 5.00</p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" data-name="Guaraná lata"
+                            data-price="5.00">
+                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                        </button>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <!--fim produto item-->
+
+
+        </div>
+
+        <!--FIM GRID BEBIBAS-->
+
+
+    </div>
+    <!--FIM MENU-->
+
+    <!--modal cart-->
+
+    <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] flex items-center justify-center hidden"
+        id="cart-modal">
+        <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+
+            <h2 class="text-center font-bold text-2xl mb-4">Meu carrinho</h2>
+
+            <!-- Itens do carrinho -->
+            <div id="cart-items" class="flex flex-col gap-2 mb-4"></div>
+
+            <!-- Total -->
+            <p class="font-bold">Total: <span id="cart-total" class="font-light">0.00</span></p>
+
+            <!-- Endereço de entrega -->
+            <p class="font-bold mt-4">Endereço de entrega:</p>
+            <input type="text" placeholder="Digite seu endereço completo..." id="address"
+                class="w-full border-2 p-2 rounded mt-1 focus:outline-none focus:border-green-500" />
+            <p class="text-red-500 text-sm hidden mt-1" id="address-warn">Digite seu endereço completo</p>
+
+            <!-- Botões -->
+            <div class="flex items-center justify-between mt-6">
+                <button id="close-modal-btn" class="text-gray-600 hover:text-gray-800">Fechar</button>
+                <button id="checkout-btn" class="bg-green-500 text-white px-6 py-2 rounded hover:bg-green-600">
+                    Finalizar pedido
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Fim modal cart-->
+
+
+    <!--BUTTON CART FOOTER-->
+    <footer class="w-full bg-red-500 py-3 fixed bottom-0 z-40 flex items-center justify-center">
+        <button class="flex items-center gap-2 text-white font-bold" id="cart-btn">
+            (<span id="cart-count">0</span>)
+            Veja meu carrinho
+            <i class="fa fa-cart-plus text-lg text-white font-bold"></i>
+        </button>
+    </footer>
+    <!--FIM BUTTON CART FOOTER-->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <script src="./script.js"></script>
+
+</body>
+
+
+
+</html>
